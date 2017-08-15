@@ -1,0 +1,4 @@
+ci:
+  build: .
+  dockerfile: Dockerfile
+  container_name: angular_ci
