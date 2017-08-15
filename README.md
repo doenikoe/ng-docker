@@ -11,5 +11,7 @@ You can find Docker Compose installation instruction here: https://docs.docker.c
 ```docker pull node:latest```
 ## 4. Clone this repo into your machine
 ```git clone https://github.com/doenikoe/ng-docker.git```
-## 5. Run the test 
+## 5. Change workdir
+```cd ng-docker```
+## 6. Run the test 
 ```docker-compose -f docker-compose-test.yml up --build```
